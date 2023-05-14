@@ -1,38 +1,28 @@
-const puppeteer = require("puppeteer");
+// Require filesystem module
 const fs = require("fs");
 
-async function run() {
-  const browser = await puppeteer.launch();
-  const page = await browser.newPage();
-  await page.goto("https://www.regisjesuit.com/");
+// Read the data from the file
+fs.readFile("test.txt", "utf8", function (err, data) {
+  if (err) throw err;
 
-  const links = await page.evaluate(() =>
-    Array.from(document.querySelectorAll("a"), (e) => e.href)
-  );
+  // Split the data by newline to get an array
+  var array = data.split("\n");
 
-  for (let i = 0; i <= links.length; i++) {
-    try {
-      //gets all of the text
-      const newPage = await browser.newPage();
-      await newPage.goto(`${links[i]}`, {
-        waitUntil: "networkidle2",
-        timeout: 30000,
-      });
-      const text = await newPage.evaluate(() => document.body.innerText);
+  // Filter out the undesired elements
+  var filteredArray = array.filter(function (url) {
+    return (
+      !url.includes("www.linkedin.com") &&
+      !url.includes("www.facebook.com") &&
+      !url.includes("twitter.com")
+    );
+  });
 
-      fs.writeFile(`data/${i}.txt`, text, (err) => {
-        if (err) {
-          console.error("Error writing to file:", err);
-        } else {
-          console.log(`Text successfully written to ${links[i]} ${i}.txt`);
-        }
-      });
-    } catch (err) {
-      console.error(`Error processing link ${i}:`, err);
-    }
-  }
+  // Convert the filtered array back to a string
+  var output = filteredArray.join("\n");
 
-  await browser.close();
-}
-
-run();
+  // Write the filtered data to a new file
+  fs.writeFile("output.txt", output, "utf8", function (err) {
+    if (err) throw err;
+    console.log("Successfully filtered and wrote to output.txt");
+  });
+});

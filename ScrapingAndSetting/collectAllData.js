@@ -1,3 +1,6 @@
+
+
+
 const puppeteer = require("puppeteer");
 const fs = require("fs");
 
@@ -20,11 +23,11 @@ async function run() {
       });
       const text = await newPage.evaluate(() => document.body.innerText);
 
-      fs.writeFile(`data/Text${i}.txt`, text, (err) => {
+      fs.writeFile(`data/${i}.txt`, text, (err) => {
         if (err) {
           console.error("Error writing to file:", err);
         } else {
-          console.log(`Text successfully written to Text${i}.txt`);
+          console.log(`Text successfully written to ${links[i]} ${i}.txt`);
         }
       });
     } catch (err) {
