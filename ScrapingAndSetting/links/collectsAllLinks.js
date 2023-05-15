@@ -9,7 +9,7 @@ async function extractLinksFromPage(page, url) {
   );
 
   return links.filter(
-    (link) => link !== "" && link.includes("https://rjhs-3729.vercel.app/")
+    (link) => link !== "" && link.includes("https://www.regisjesuit.com/")
   );
 }
 

@@ -1,5 +1,6 @@
 const fs = require("fs");
 const puppeteer = require("puppeteer");
+const SummarizerManager = require("node-summarizer").SummarizerManager;
 
 // Function to delay the process
 const delay = (ms) => new Promise((res) => setTimeout(res, ms));
@@ -38,14 +39,37 @@ const delay = (ms) => new Promise((res) => setTimeout(res, ms));
       continue;
     }
 
+
+
+
+      // const back =
+      //   "\nBoys Division\n6400 S. Lewiston Way, Aurora, CO 80016\nFax: 303.269.8134\nRegis Jesuit High School\n303.269.8000\nGirls Division\n6300 S. Lewiston Way, Aurora, CO 80016\nFax: 303.269.8133\nRegis Jesuit High School admits students of any race, color, national and ethnic origin to all the rights, privileges, programs and activities generally accorded or made available to students at the school. It does not discriminate on the basis of race, color, national and ethnic origin in administration of its educational policies, admissions policies, scholarship and loan programs, athletic and other school-administered programs.\nCONTACT & DIRECTIONS\nEMPLOYMENT\nEDUCATION VERIFICATION\nREQUEST TRANSCRIPT\nPRIVACY POLICY\nRegis Jesuit®, the Crest and RJ logos are federally registered trademarks owned by Regis Jesuit High School. All rights reserved.\nSelect Language​▼\n    \nSitemap";
+
+      // const headerOneText =
+      //   "Additional Information\nX\nThis website uses cookies to ensure you get the best experience on our website. By continuing to use this website, you consent to our use of these cookies.\n";
+
+      //   innerText.replace(back, ' ')
+      //   innerText.replace(headerOneText, ' ')
+    
+
+
+
+
+
+
     // Add the data to our Set of unique data
     uniqueData.add(innerText);
+
+    // Create a summary of the scraped data
+    let summarizer = new SummarizerManager(innerText, 3); // 3 sentences summary
+    let summary = await summarizer.getSummaryByRank();
 
     // Add the scraped data to our container
     scrapedData.push({
       number: i + 1,
       link: links[i],
       data: innerText,
+      summary: summary, // add the summary
     });
 
     // Close the page to save resources
@@ -63,7 +87,10 @@ const delay = (ms) => new Promise((res) => setTimeout(res, ms));
   await browser.close();
 
   // Write the scraped data to a file
-  fs.writeFileSync("testScrapedData.json", JSON.stringify(scrapedData, null, 2));
+  fs.writeFileSync(
+    "testScrapedData.json",
+    JSON.stringify(scrapedData, null, 2)
+  );
 
   console.log("Scraping finished");
 })();
