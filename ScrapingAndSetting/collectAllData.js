@@ -1,41 +1,69 @@
-
-
-
-const puppeteer = require("puppeteer");
 const fs = require("fs");
+const puppeteer = require("puppeteer");
 
-async function run() {
+// Function to delay the process
+const delay = (ms) => new Promise((res) => setTimeout(res, ms));
+
+(async () => {
+  // Read the text file with the links
+  const data = fs.readFileSync("links.txt", "utf-8");
+
+  // Split the text file into an array of links
+  const links = data.split("\n");
+
+  // Launch the browser
   const browser = await puppeteer.launch();
-  const page = await browser.newPage();
-  await page.goto("https://www.regisjesuit.com/");
 
-  const links = await page.evaluate(() =>
-    Array.from(document.querySelectorAll("a"), (e) => e.href)
-  );
+  // Prepare a container for our scraped data
+  let scrapedData = [];
 
-  for (let i = 0; i <= links.length; i++) {
-    try {
-      //gets all of the text
-      const newPage = await browser.newPage();
-      await newPage.goto(`${links[i]}`, {
-        waitUntil: "networkidle2",
-        timeout: 30000,
-      });
-      const text = await newPage.evaluate(() => document.body.innerText);
+  // Prepare a Set to keep track of unique data
+  let uniqueData = new Set();
 
-      fs.writeFile(`data/${i}.txt`, text, (err) => {
-        if (err) {
-          console.error("Error writing to file:", err);
-        } else {
-          console.log(`Text successfully written to ${links[i]} ${i}.txt`);
-        }
-      });
-    } catch (err) {
-      console.error(`Error processing link ${i}:`, err);
+  for (let i = 0; i < links.length; i++) {
+    const page = await browser.newPage();
+
+    // Navigate to the link
+    await page.goto(links[i], { waitUntil: "networkidle2" });
+
+    // Scrape the data
+    const innerText = await page.evaluate(() => document.body.innerText);
+
+    // If we have already scraped this data, skip it
+    if (uniqueData.has(innerText)) {
+      console.log(
+        `Data from link ${i + 1} (${links[i]}) is a duplicate, skipping...`
+      );
+      await page.close();
+      continue;
     }
+
+    // Add the data to our Set of unique data
+    uniqueData.add(innerText);
+
+    // Add the scraped data to our container
+    scrapedData.push({
+      number: i + 1,
+      link: links[i],
+      data: innerText,
+    });
+
+    // Close the page to save resources
+    await page.close();
+
+    // Delay before moving on to the next link
+    await delay(1000); // 1 second delay
+
+    console.log(
+      `Finished scraping (${links[i]}) ${i + 1} of ${links.length} links`
+    );
   }
 
+  // Close the browser
   await browser.close();
-}
 
-run();
+  // Write the scraped data to a file
+  fs.writeFileSync("testScrapedData.json", JSON.stringify(scrapedData, null, 2));
+
+  console.log("Scraping finished");
+})();
