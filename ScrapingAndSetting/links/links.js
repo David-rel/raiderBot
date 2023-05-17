@@ -4,7 +4,7 @@ const fs = require("fs");
 async function run() {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  await page.goto("https://rjhs-3729.vercel.app/");
+  await page.goto("https://rjhs.instructure.com/courses/10730");
 
   const links = await page.evaluate(() =>
     Array.from(document.querySelectorAll("a"), (e) => e.href)

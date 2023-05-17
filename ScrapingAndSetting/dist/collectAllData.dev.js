@@ -120,7 +120,7 @@ var delay = function delay(ms) {
 
         case 38:
           // Write the scraped data to a file
-          fs.writeFileSync("testTwoScrapedData.json", JSON.stringify(scrapedData, null, 2));
+          fs.writeFileSync("testScrapedData.json", JSON.stringify(scrapedData, null, 2));
           console.log("Scraping finished");
 
         case 40:
