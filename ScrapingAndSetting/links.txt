@@ -128,7 +128,6 @@ https://www.regisjesuit.com/endowment-giving?siteId=1293
 https://www.regisjesuit.com/raider-opportunity-fund?pending=true&cached=false
 https://www.regisjesuit.com/page/list-detail?pk=137666&fromId=284514
 https://www.regisjesuit.com/page/support-rj/make-a-gift?siteId=1293
-https://www.regisjesuit.com/ftpimages/1316/download/download_5608461.pdf
 https://www.regisjesuit.com/page/list-detail?pk=137210&fromId=284514
 https://www.regisjesuit.com/inspire-and-ignite-2025-strategic-plan/strategic-plan/bold-move-one#
 https://www.regisjesuit.com/page/news-detail?pk=1257580&fromId=275534
@@ -291,8 +290,6 @@ https://www.regisjesuit.com/student-experience/academics#
 https://www.regisjesuit.com/page/event-detail?pk=15973075&fromId=250254
 https://www.regisjesuit.com/page/event-detail?pk=18508048&fromId=250254
 https://www.regisjesuit.com/page/curriculum-detail
-https://www.regisjesuit.com/ftpimages/1316/download/download_3250482.pdf
-https://www.regisjesuit.com/ftpimages/1316/download/download_3342988.pdf
 https://www.regisjesuit.com/page/contact--directions
 https://www.regisjesuit.com/page/our-libraries
 https://www.regisjesuit.com/student-experience/academics/technology-in-the-classroom#
@@ -386,11 +383,9 @@ https://www.regisjesuit.com/page/event-detail?pk=15973075&fromId=250336
 https://www.regisjesuit.com/page/event-detail?pk=18508048&fromId=250336
 https://www.regisjesuit.com/page/theatre-box-office
 https://www.regisjesuit.com/student-experience/arts/www.mtishows.com
-https://www.regisjesuit.com/ftpimages/1316/download/download_3352267.pdf
 https://www.regisjesuit.com/student-experience/college-counseling#
 https://www.regisjesuit.com/page/event-detail?pk=15973075&fromId=248906
 https://www.regisjesuit.com/page/event-detail?pk=18508048&fromId=248906
-https://www.regisjesuit.com/ftpimages/1316/download/download_3615031.pdf
 https://www.regisjesuit.com/student-experience/activities#
 https://www.regisjesuit.com/page/event-detail?pk=15973075&fromId=250260
 https://www.regisjesuit.com/page/event-detail?pk=18508048&fromId=250260
@@ -478,8 +473,6 @@ https://www.regisjesuit.com/page/event-detail?pk=18508048&fromId=250920
 https://www.regisjesuit.com/community/facilities-rental#
 https://www.regisjesuit.com/page/event-detail?pk=15973075&fromId=250292
 https://www.regisjesuit.com/page/event-detail?pk=18508048&fromId=250292
-https://www.regisjesuit.com/ftpimages/1316/download/download_3346905.pdf
-https://www.regisjesuit.com/ftpimages/1316/download/download_3346906.pdf
 https://www.regisjesuit.com/support-rj#
 https://www.regisjesuit.com/page/event-detail?pk=15973075&fromId=250376
 https://www.regisjesuit.com/page/event-detail?pk=18508048&fromId=250376
@@ -552,7 +545,6 @@ https://www.regisjesuit.com/news-detail?pk=1284272&fromId=250162&siteId=1293
 https://www.regisjesuit.com/page/news-detail?pk=1285230&nc=20231&fromId=250162
 https://www.regisjesuit.com/page/news-detail?pk=1284783&nc=20231&fromId=250162
 https://www.regisjesuit.com/page/news?nc=0_20231&fromId=250162
-https://www.regisjesuit.com/ftpimages/1316/download/download_3350801.pdf
 https://www.regisjesuit.com/calendar#
 https://www.regisjesuit.com/page/event-detail?pk=15973075&fromId=248723
 https://www.regisjesuit.com/page/event-detail?pk=18508048&fromId=248723
@@ -561,7 +553,6 @@ https://www.regisjesuit.com/page/event-detail?pk=18926398&fromId=248723
 https://www.regisjesuit.com/contact--directions#
 https://www.regisjesuit.com/page/event-detail?pk=15973075&fromId=250315
 https://www.regisjesuit.com/page/event-detail?pk=18508048&fromId=250315
-https://www.regisjesuit.com/ftpimages/1316/download/download_7085602.pdf
 https://www.regisjesuit.com/employment#
 https://www.regisjesuit.com/page/event-detail?pk=15973075&fromId=282644
 https://www.regisjesuit.com/page/event-detail?pk=18508048&fromId=282644
@@ -687,12 +678,10 @@ https://www.regisjesuit.com/event-detail?pk=18508048&fromId=284514#
 https://www.regisjesuit.com/endowment-giving?siteId=1293#
 https://www.regisjesuit.com/page/event-detail?pk=15973075&fromId=256518&siteId=1293
 https://www.regisjesuit.com/page/event-detail?pk=18508048&fromId=256518&siteId=1293
-https://www.regisjesuit.com/ftpimages/1316/download/download_5608461.pdf?siteId=1293
 https://www.regisjesuit.com/page/list-detail?pk=137210&fromId=256518&siteId=1293
 https://www.regisjesuit.com/raider-opportunity-fund?pending=true&cached=false#
 https://www.regisjesuit.com/page/event-detail?pk=15973075&fromId=256531
 https://www.regisjesuit.com/page/event-detail?pk=18508048&fromId=256531
-https://www.regisjesuit.com/ftpimages/1316/download/download_5627909.pdf
 https://www.regisjesuit.com/list-detail?pk=137666&fromId=284514#
 https://www.regisjesuit.com/support-rj/make-a-gift?siteId=1293#
 https://www.regisjesuit.com/page/event-detail?pk=15973075&fromId=250293&siteId=1293
@@ -1379,8 +1368,6 @@ https://www.regisjesuit.com/student-experience/academics?siteId=1293#
 https://www.regisjesuit.com/page/event-detail?pk=15973075&fromId=250254&siteId=1293
 https://www.regisjesuit.com/page/event-detail?pk=18508048&fromId=250254&siteId=1293
 https://www.regisjesuit.com/page/curriculum-detail?siteId=1293
-https://www.regisjesuit.com/ftpimages/1316/download/download_3250482.pdf?siteId=1293
-https://www.regisjesuit.com/ftpimages/1316/download/download_3342988.pdf?siteId=1293
 https://www.regisjesuit.com/page/contact--directions?siteId=1293
 https://www.regisjesuit.com/page/our-libraries?siteId=1293
 https://www.regisjesuit.com/student-experience/academics/technology-in-the-classroom?siteId=1293#
@@ -1471,11 +1458,9 @@ https://www.regisjesuit.com/student-experience/arts/theatre?siteId=1293#
 https://www.regisjesuit.com/page/event-detail?pk=15973075&fromId=250336&siteId=1293
 https://www.regisjesuit.com/page/event-detail?pk=18508048&fromId=250336&siteId=1293
 https://www.regisjesuit.com/page/theatre-box-office?siteId=1293
-https://www.regisjesuit.com/ftpimages/1316/download/download_3352267.pdf?siteId=1293
 https://www.regisjesuit.com/student-experience/college-counseling?siteId=1293#
 https://www.regisjesuit.com/page/event-detail?pk=15973075&fromId=248906&siteId=1293
 https://www.regisjesuit.com/page/event-detail?pk=18508048&fromId=248906&siteId=1293
-https://www.regisjesuit.com/ftpimages/1316/download/download_3615031.pdf?siteId=1293
 https://www.regisjesuit.com/student-experience/activities?siteId=1293#
 https://www.regisjesuit.com/page/event-detail?pk=15973075&fromId=250260&siteId=1293
 https://www.regisjesuit.com/page/event-detail?pk=18508048&fromId=250260&siteId=1293
@@ -1547,8 +1532,6 @@ https://www.regisjesuit.com/page/event-detail?pk=18508048&fromId=250920&siteId=1
 https://www.regisjesuit.com/community/facilities-rental?siteId=1293#
 https://www.regisjesuit.com/page/event-detail?pk=15973075&fromId=250292&siteId=1293
 https://www.regisjesuit.com/page/event-detail?pk=18508048&fromId=250292&siteId=1293
-https://www.regisjesuit.com/ftpimages/1316/download/download_3346905.pdf?siteId=1293
-https://www.regisjesuit.com/ftpimages/1316/download/download_3346906.pdf?siteId=1293
 https://www.regisjesuit.com/support-rj?siteId=1293#
 https://www.regisjesuit.com/page/event-detail?pk=15973075&fromId=250376&siteId=1293
 https://www.regisjesuit.com/page/event-detail?pk=18508048&fromId=250376&siteId=1293
@@ -1582,7 +1565,6 @@ https://www.regisjesuit.com/page/news-detail?pk=1284272&nc=20231&fromId=250162&s
 https://www.regisjesuit.com/page/news-detail?pk=1285230&nc=20231&fromId=250162&siteId=1293
 https://www.regisjesuit.com/page/news-detail?pk=1284783&nc=20231&fromId=250162&siteId=1293
 https://www.regisjesuit.com/page/news?nc=0_20231&fromId=250162&siteId=1293
-https://www.regisjesuit.com/ftpimages/1316/download/download_3350801.pdf?siteId=1293
 https://www.regisjesuit.com/calendar?siteId=1293#
 https://www.regisjesuit.com/page/event-detail?pk=15973075&fromId=248723&siteId=1293
 https://www.regisjesuit.com/page/event-detail?pk=18508048&fromId=248723&siteId=1293
@@ -1591,7 +1573,6 @@ https://www.regisjesuit.com/page/event-detail?pk=18926398&fromId=248723&siteId=1
 https://www.regisjesuit.com/contact--directions?siteId=1293#
 https://www.regisjesuit.com/page/event-detail?pk=15973075&fromId=250315&siteId=1293
 https://www.regisjesuit.com/page/event-detail?pk=18508048&fromId=250315&siteId=1293
-https://www.regisjesuit.com/ftpimages/1316/download/download_7085602.pdf?siteId=1293
 https://www.regisjesuit.com/employment?siteId=1293#
 https://www.regisjesuit.com/page/event-detail?pk=15973075&fromId=282644&siteId=1293
 https://www.regisjesuit.com/page/event-detail?pk=18508048&fromId=282644&siteId=1293
