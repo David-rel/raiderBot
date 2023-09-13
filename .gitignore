@@ -7,6 +7,8 @@ node_modules
 .next
 openwebtext
 cuda
+output_train.txt
+output_val.txt
 
 # testing
 /coverage
